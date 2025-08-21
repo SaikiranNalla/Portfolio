@@ -28,7 +28,7 @@ const Sidebar = ({ activeSection, onSectionChange }: SidebarProps) => {
       color: "hover:text-accent-blue" 
     },
     { 
-      icon: Medium, 
+      icon: Globe, 
       href: "https://saikirannalla.medium.com", 
       label: "Medium",
       color: "hover:text-accent-purple" 
