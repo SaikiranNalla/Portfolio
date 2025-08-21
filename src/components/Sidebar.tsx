@@ -17,31 +17,31 @@ const Sidebar = ({ activeSection, onSectionChange }: SidebarProps) => {
   const socialLinks = [
     { 
       icon: Github, 
-      href: "https://github.com", 
+      href: "https://github.com/SaikiranNalla", 
       label: "GitHub",
       color: "hover:text-accent-teal" 
     },
     { 
       icon: Linkedin, 
-      href: "https://linkedin.com", 
+      href: "https://www.linkedin.com/in/saikirannalla/", 
       label: "LinkedIn",
       color: "hover:text-accent-blue" 
     },
     { 
-      icon: Globe, 
-      href: "https://medium.com", 
+      icon: Medium, 
+      href: "https://saikirannalla.medium.com", 
       label: "Medium",
       color: "hover:text-accent-purple" 
     },
     { 
       icon: Instagram, 
-      href: "https://instagram.com", 
+      href: "https://www.instagram.com/saikiran_chowdhary?igsh=dmlkejlldmRlNG0x", 
       label: "Instagram",
       color: "hover:text-accent-teal" 
     },
     { 
       icon: Mail, 
-      href: "mailto:hello@example.com", 
+      href: "mailto:saikiran26499@outlook.com", 
       label: "Email",
       color: "hover:text-accent-blue" 
     }
@@ -62,13 +62,13 @@ const Sidebar = ({ activeSection, onSectionChange }: SidebarProps) => {
         {/* Name & Title */}
         <div className="text-center lg:text-left mb-8">
           <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-4 text-glow">
-            John Developer
+            Saikiran Nalla
           </h1>
           <h2 className="text-xl lg:text-2xl font-medium text-accent-teal mb-4">
-            Front End Engineer
+            Software Engineer
           </h2>
           <p className="text-foreground-muted max-w-xs">
-            I build accessible, pixel-perfect digital experiences for the web.
+            I build accessible and reliable online presence for the web.
           </p>
         </div>
 
