@@ -4,15 +4,15 @@ const ProjectsSection = () => {
   const projects = [
     {
       title: "SVDS Transport",
-      description: "Video course that teaches how to build a web app with the Spotify Web API. Topics covered include the principles of REST APIs, user auth flows, Node, Express, React, Styled Components, and more.",
-      image: "/placeholder.svg",
+      description: "Web application for a transportation company to manage transit orders and generate billing invoices. Covers core business operations like customer management, order tracking, and automated bill generation using Django, PostgreSQL, and Bootstrap for a responsive frontend.",
+      image: "/assets/svds_frontpage.jpg",
       technologies: ["Django", "Python", "Bootstrap", "Postgresql"],
-      liveUrl: "#",
-      githubUrl: "#"
+      liveUrl: "svdstransport.web.com",
+      githubUrl: "https://github.com/SaikiranNalla/SVDS_Admin"
     },
     {
       title: "Tutorials Website",
-      description: "A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.",
+      description: "Multi-topic educational platform where users can browse and learn from structured tutorial content. Built with Django and PostgreSQL, featuring an admin-controlled content system that allows authorized users to add, edit, or remove lessons and categories dynamically.",
       image: "/placeholder.svg",
       technologies: ["Django", "Python", "Bootstrap", "Postgresql"],
       liveUrl: "#",
@@ -21,9 +21,9 @@ const ProjectsSection = () => {
     {
       title: "Blogsite",
       description: "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
-      image: "/placeholder.svg",
+      image: "/assets/blogsite.jpg",
       technologies: ["Flask", "Python", "Bootstrap", "Postgresql", "Render"],
-      liveUrl: "#",
+      liveUrl: "saikiranpgrrcde.pythonanywhere.com",
       githubUrl: "#"
     }
   ];

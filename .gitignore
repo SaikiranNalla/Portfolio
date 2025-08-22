@@ -1,1 +1,19 @@
 node_modules
+
+
+# Firebase cache and metadata
+.firebase/
+
+# Firebase config files (uncomment if you want to ignore them)
+firebase.json
+.firebaserc
+
+# Firebase service account and credentials (never commit these)
+google-services.json
+GoogleService-Info.plist
+
+# Generated Firebase options (for Flutter, if applicable)
+lib/firebase_options.dart
+
+# Firebase emulators data (if stored locally)
+emulator-data/   

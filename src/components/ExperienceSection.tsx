@@ -5,18 +5,18 @@ const ExperienceSection = () => {
     {
       period: "2024 — PRESENT",
       title: "Free Lancer",
-      company: "Klaviyo",
+      company: "",
       companyUrl: "#",
-      description: "Build and maintain critical components used to construct Klaviyo's frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and PMs, to implement and advocate for best practices in web accessibility.",
+      description: "Delivered end-to-end web development solutions for diverse client needs, building scalable and user-friendly applications as a freelance developer. Created SVDS Transport (Django, PostgreSQL, Bootstrap), a dynamic platform for company information, transit order management, and automated billing, streamlining internal operations for admin users. Built a comprehensive tutorial website enabling content categorization and admin-driven content management, providing learners with an intuitive educational experience. Developed a full-featured blogsite using Flask and SQLite with user authentication, role-based access, and CRUD functionality, allowing seamless content sharing and user engagement through comments. All projects were independently developed, tested, and deployed, reflecting strong full-stack capabilities and client-focused problem solving.",
       technologies: ["Python", "Django", "Flask", "Bootstrap"]
     },
     {
       period: "2022 — 2024",
       title: "Software Engineer",
-      company: "Upstatement",
+      company: "Cognizant",
       companyUrl: "#",
-      description: "Delivered high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more.",
-      technologies: ["React", "Node.js", "TypeScript", "Mainframe"]
+      description: "Analyzed and reverse-engineered COBOL applications to uncover core business logic and data flows, documenting mainframe system functionality and dependencies for modernization efforts. Developed Python-based data migration and validation utilities, enabling accurate extraction and transformation of legacy data. Authored automated test scripts to verify migrated functionality and supported the translation of COBOL business rules into clear functional specifications for Java development teams. Completed an intensive 3-month mainframe training program in COBOL, JCL, DB2, and VSAM, and applied these skills in a real-world mini-project for Walmart Retail Corporation to optimize product demand processing across stores.",
+      technologies: ["Mainframe: JCL, COBOL", "Python", "Pandas"]
     },
     // {
     //   period: "2018 — 2022",
