@@ -7,7 +7,7 @@ const ProjectsSection = () => {
       description: "Web application for a transportation company to manage transit orders and generate billing invoices. Covers core business operations like customer management, order tracking, and automated bill generation using Django, PostgreSQL, and Bootstrap for a responsive frontend.",
       image: "/assets/svds_frontpage.jpg",
       technologies: ["Django", "Python", "Bootstrap", "Postgresql"],
-      liveUrl: "svdstransport.web.com",
+      liveUrl: "https://svdstransport.web.app",
       githubUrl: "https://github.com/SaikiranNalla/SVDS_Admin"
     },
     {
@@ -23,7 +23,7 @@ const ProjectsSection = () => {
       description: "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
       image: "/assets/blogsite.jpg",
       technologies: ["Flask", "Python", "Bootstrap", "Postgresql", "Render"],
-      liveUrl: "saikiranpgrrcde.pythonanywhere.com",
+      liveUrl: "https://saikiranpgrrcde.pythonanywhere.com",
       githubUrl: "#"
     }
   ];

@@ -14,8 +14,8 @@ const ExperienceSection = () => {
       period: "2022 — 2024",
       title: "Software Engineer",
       company: "Cognizant",
-      companyUrl: "#",
-      description: "Analyzed and reverse-engineered COBOL applications to uncover core business logic and data flows, documenting mainframe system functionality and dependencies for modernization efforts. Developed Python-based data migration and validation utilities, enabling accurate extraction and transformation of legacy data. Authored automated test scripts to verify migrated functionality and supported the translation of COBOL business rules into clear functional specifications for Java development teams. Completed an intensive 3-month mainframe training program in COBOL, JCL, DB2, and VSAM, and applied these skills in a real-world mini-project for Walmart Retail Corporation to optimize product demand processing across stores.",
+      companyUrl: "https://www.cognizant.com/in/en",
+      description: "Analyzed and reverse-engineered COBOL applications to uncover core business logic and data flows, documenting mainframe system functionality and dependencies for modernization efforts. Developed Python-based data migration and validation utilities, enabling accurate extraction and transformation of legacy data. Authored automated test scripts to verify migrated functionality and supported the translation of COBOL business rules into clear functional specifications for Java development teams.",
       technologies: ["Mainframe: JCL, COBOL", "Python", "Pandas"]
     },
     // {
@@ -86,7 +86,7 @@ const ExperienceSection = () => {
       <div className="mt-12">
         <a
           className="inline-flex items-center font-medium leading-tight text-foreground hover:text-accent-teal focus-visible:text-accent-teal group transition-colors duration-300"
-          href="/resume.pdf"
+          href="/assets/resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
         >
