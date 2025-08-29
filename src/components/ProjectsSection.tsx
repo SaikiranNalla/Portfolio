@@ -13,10 +13,10 @@ const ProjectsSection = () => {
     {
       title: "Tutorials Website",
       description: "Multi-topic educational platform where users can browse and learn from structured tutorial content. Built with Django and PostgreSQL, featuring an admin-controlled content system that allows authorized users to add, edit, or remove lessons and categories dynamically.",
-      image: "/placeholder.svg",
+      image: "/assets/sktutorials.png",
       technologies: ["Django", "Python", "Bootstrap", "Postgresql"],
-      liveUrl: "#",
-      githubUrl: "#"
+      liveUrl: "https://sktutorials.onrender.com",
+      githubUrl: "https://github.com/SaikiranNalla/Tutorial-Website"
     },
     {
       title: "Blogsite",
@@ -24,7 +24,7 @@ const ProjectsSection = () => {
       image: "/assets/blogsite.jpg",
       technologies: ["Flask", "Python", "Bootstrap", "Postgresql", "Render"],
       liveUrl: "https://saikiranpgrrcde.pythonanywhere.com",
-      githubUrl: "#"
+      githubUrl: "https://github.com/SaikiranNalla/Blog-site"
     }
   ];
 
