@@ -53,30 +53,30 @@ const ProjectsSection = () => {
             </div>
             
             <div className="z-10 lg:col-span-2">
-              <h3 className="font-medium leading-snug text-foreground">
-                <div>
-                  <a
-                    className="inline-flex items-baseline font-medium leading-tight text-foreground hover:text-accent-teal focus-visible:text-accent-teal group/link text-base transition-colors duration-300"
-                    href={project.liveUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block" />
-                    <span>{project.title}</span>
-                    <ExternalLink className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:translate-x-1 group-hover/link:-translate-y-1 group-focus-visible/link:translate-x-1 group-focus-visible/link:-translate-y-1 motion-reduce:transition-none ml-1" />
-                  </a>
-                </div>
-                <div className="flex items-center mt-2">
-                  <a
-                    href={project.githubUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-foreground-muted hover:text-accent-teal transition-colors duration-300"
-                  >
-                    <Github className="h-4 w-4" />
-                  </a>
-                </div>
-              </h3>
+              <div className="flex items-start justify-between gap-4">
+                <h3 className="font-medium leading-snug text-foreground flex-1">
+                  <div>
+                    <a
+                      className="inline-flex items-baseline font-medium leading-tight text-foreground hover:text-accent-teal focus-visible:text-accent-teal group/link text-base transition-colors duration-300 relative"
+                      href={project.liveUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block" />
+                      <span className="relative z-10">{project.title}</span>
+                      <ExternalLink className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:translate-x-1 group-hover/link:-translate-y-1 group-focus-visible/link:translate-x-1 group-focus-visible/link:-translate-y-1 motion-reduce:transition-none ml-1 relative z-10" />
+                    </a>
+                  </div>
+                </h3>
+                <a
+                  href={project.githubUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-foreground-muted hover:text-accent-teal transition-colors duration-300 relative z-20 flex-shrink-0 mt-1"
+                >
+                  <Github className="h-4 w-4" />
+                </a>
+              </div>
               
               <p className="mt-2 text-sm leading-normal text-foreground-subtle">
                 {project.description}
