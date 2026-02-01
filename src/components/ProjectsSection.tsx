@@ -3,6 +3,14 @@ import { ExternalLink, Github } from "lucide-react";
 const ProjectsSection = () => {
   const projects = [
     {
+      title: "CookBook",
+      description: "A web app for recipe management and smart grocery list generation. Users select multiple recipes, and the system automatically consolidates ingredients, removes duplicates, and creates organized shopping lists. Built with Django and PostgreSQL, featuring responsive design, AJAX updates, and PythonAnywhere deployment.",
+      image: "/assets/CookBook_page.png",
+      technologies: ["Django", "Python", "Bootstrap", "Postgresql", "PythonAnywhere"],
+      liveUrl: "https://saikiran26499.pythonanywhere.com",
+      githubUrl: "https://github.com/SaikiranNalla/TheRecipeDB"
+    },
+    {
       title: "SVDS Transport",
       description: "Web application for a transportation company to manage transit orders and generate billing invoices. Covers core business operations like customer management, order tracking, and automated bill generation using Django, PostgreSQL, and Bootstrap for a responsive frontend.",
       image: "/assets/svds_frontpage.jpg",
