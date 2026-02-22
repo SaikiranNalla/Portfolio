@@ -7,16 +7,32 @@ const ExperienceSection = () => {
       title: "Free Lancer",
       company: "",
       companyUrl: "#",
-      description: "Delivered end-to-end web development solutions for diverse client needs, building scalable and user-friendly applications as a freelance developer. Created SVDS Transport (Django, PostgreSQL, Bootstrap), a dynamic platform for company information, transit order management, and automated billing, streamlining internal operations for admin users. Built a comprehensive tutorial website enabling content categorization and admin-driven content management, providing learners with an intuitive educational experience. Developed a full-featured blogsite using Flask and SQLite with user authentication, role-based access, and CRUD functionality, allowing seamless content sharing and user engagement through comments. All projects were independently developed, tested, and deployed, reflecting strong full-stack capabilities and client-focused problem solving.",
-      technologies: ["Python", "Django", "Flask", "Bootstrap"]
+      description: "Delivered end-to-end web development solutions for small businesses and individual clients — owning design, backend, and deployment.\n" +
+          "\n" +
+          "Built SVDS Transport (Django, PostgreSQL, Bootstrap) — a transport management platform for order tracking, customer management and automated invoice generation; integrated CSV/PDF export for billing and simplified admin workflows. (Live · GitHub)\n" +
+          "\n" +
+          "Developed a Tutorials Platform (Django, PostgreSQL) with admin-driven content management, dynamic categories, and search — enabled non-technical staff to manage lessons. (Live · GitHub)\n" +
+          "\n" +
+          "Implemented a Blog / Spotify Insights app (Flask, OAuth, PostgreSQL) with user auth, playlist generation, and audio analytics; designed API usage and deployment scripts. (Live · GitHub)\n" +
+          "\n" +
+          "Independently handled testing, CI/CD (GitHub Actions), Docker-based deployments, and basic monitoring for client apps, ensuring reliable delivery and easier handoffs.",
+      technologies: ["Python", "Django", "Flask", "PostgreSQL", "Bootstrap"]
     },
     {
       period: "2022 — 2024",
       title: "Software Engineer",
       company: "Cognizant",
       companyUrl: "https://www.cognizant.com/in/en",
-      description: "Analyzed and reverse-engineered COBOL applications to uncover core business logic and data flows, documenting mainframe system functionality and dependencies for modernization efforts. Developed Python-based data migration and validation utilities, enabling accurate extraction and transformation of legacy data. Authored automated test scripts to verify migrated functionality and supported the translation of COBOL business rules into clear functional specifications for Java development teams.",
-      technologies: ["Mainframe: JCL, COBOL", "Python", "Pandas"]
+      description: "Worked on legacy mainframe systems and supported application modernization efforts to migrate business logic and data flows to modern stacks.\n" +
+          "\n" +
+          "Reverse-engineered COBOL programs and documented business logic and data dependencies to create clear migration specifications.\n" +
+          "\n" +
+          "Built Python data extraction and validation utilities to support reliable legacy-data migration pipelines.\n" +
+          "\n" +
+          "Authored automated test scripts to validate migrated functionality and reduce manual verification time.\n" +
+          "\n" +
+          "Collaborated with Java/Python teams to translate COBOL rules into maintainable service-level specifications for modernization." ,
+      technologies: ["COBOL", "JCL", "Python", "Pandas", "SQL"]
     },
     // {
     //   period: "2018 — 2022",

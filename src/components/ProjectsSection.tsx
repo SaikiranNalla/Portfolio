@@ -28,7 +28,7 @@ const ProjectsSection = () => {
     },
     {
       title: "Blogsite",
-      description: "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
+      description: "Blogsite Web Application to write blogs and role based access to write blogs, users can write comments each blogs and CRUD functionality for posts and comments.",
       image: "/assets/blogsite.jpg",
       technologies: ["Flask", "Python", "Bootstrap", "Postgresql", "Render"],
       liveUrl: "https://saikiranpgrrcde.pythonanywhere.com",

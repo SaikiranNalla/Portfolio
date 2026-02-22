@@ -65,10 +65,11 @@ const Sidebar = ({ activeSection, onSectionChange }: SidebarProps) => {
             Saikiran Nalla
           </h1>
           <h2 className="text-xl lg:text-2xl font-medium text-accent-teal mb-4">
-            Software Engineer
+            Web Application Developer
           </h2>
           <p className="text-foreground-muted max-w-xs mx-auto lg:mx-0">
-            Solving real-world problems through code, from enterprise systems to full-stack web applications.
+            Backend developer specializing in Python and Django, focused on building scalable web applications,
+            designing database-driven applications and turning real-world problems into reliable software solutions.
           </p>
         </div>
 
